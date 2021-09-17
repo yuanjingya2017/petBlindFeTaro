@@ -1,0 +1,35 @@
+.index {
+    font-size: 14px;
+    .list-item {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left-pic {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+            }
+            .left-pic-text {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+        .center {
+            display: flex;
+            flex-direction: column;
+            .top {
+                font-size: 16Px;
+            }
+        }
+        .right {
+            color: #ddd;
+            font-size: 12px;
+        }
+    }
+}

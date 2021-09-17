@@ -1,6 +1,7 @@
 export default {
   pages: [
-    'pages/index/index'
+    'pages/index/index',
+    'pages/dialogList/index'
   ],
   window: {
     backgroundTextStyle: 'light',
